@@ -24,7 +24,7 @@ Hàm 'create_recursive_data()' được sử dụng để chuyển đổi dữ l
     - **Train:** 80% dữ liệu đầu
     - **Test:** 20% dữ liệu sau cùng (để kiểm tra khả năng dự báo tương lai)
 ## Kết quả
-Mô hình cho thấy khả năng nắm bắt tốt xu hướng tăng trưởng (trend) và tính mùa vụ (seasonality) của dữ liệu CO2.
+Mô hình cho thấy khả năng nắm bắt tốt xu hướng tăng trưởng (trend) của dữ liệu CO2.
 ### Biểu đồ trực quan hóa
 *(Đường màu xanh lá là giá trị dự đoán, đường màu cam là giá trị thực tế, đường màu xanh dương là giá trị tập train)*
 ![Biểu đồ tổng thể sau khi train](img/Figure_3.png)
@@ -33,8 +33,8 @@ Mô hình cho thấy khả năng nắm bắt tốt xu hướng tăng trưởng (
 | Metric | Điểm số (Score) |
 |---|---|
 | **R2 Score** | 0.9907505918201436 |
-| **MAE** | 0.3605603788359248 |
-| **MSE** | 0.22044947360346698 |
+| **MAE (Mean Absolute Error)** | 0.3605603788359248 |
+| **MSE (Mean Squared Error)** | 0.22044947360346698 |
 
 
 
