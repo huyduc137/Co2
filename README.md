@@ -29,6 +29,7 @@ Mô hình cho thấy khả năng nắm bắt tốt xu hướng tăng trưởng (
 *(Đường màu xanh lá là giá trị dự đoán, đường màu cam là giá trị thực tế, đường màu xanh dương là giá trị tập train)*
 ![Biểu đồ tổng thể sau khi train](img/Figure_3.png)
 ![Biểu đồ đường giá trị dự đoán và giá trị thực tế](img/Figure_4.png)
+
 **Phân tích chung về biểu đồ:** kết quả dự đoán tốt
 - **Bắt được xu hướng (Trend Capture)**: Dữ liệu Co2 thực tế (Đường màu cam) có xu hướng tăng dần theo thời gian (Từ ~355 lên ~375). Đường dự đoán bám sát hoàn toàn xu hướng tăng này
 - **Bắt được tính mùa vụ:** Dữ liệu CO2 có đặc tính răng cưa rất đều đặn. Mô hình Linear Regression với đầu vào là 4 tuần trước đó *(window_size = 5)* đã học được quy luật rất chính xác 
