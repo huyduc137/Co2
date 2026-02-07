@@ -41,6 +41,9 @@ Mô hình cho thấy khả năng nắm bắt tốt xu hướng tăng trưởng (
 | **MAE (Mean Absolute Error)** | 0.3605603788359248 |
 | **MSE (Mean Squared Error)** | 0.22044947360346698 |
 
+- Mô hình đạt R2 Score rất cao, chứng tỏ Linear Regression rất phù hợp để mô hình hóa xu hướng tuyến tính
+- Chỉ số MAE thấp cho thấy độ lệch trung bình giữa dự báo và thực tế rất nhỏ, đảm bảo độ tin cậy khi áp dụng vào thực tế
+- MSE thấp chứng tỏ mô hình hoạt động ổn định, không có những điểm dự báo sai lệch đột biến (Không có ouliers lớn làm lệch mô hình)
 
 
 
